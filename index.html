@@ -1,0 +1,101 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Highest View Hotel | Luxury Hotel in the UK</title>
+    <meta name="description" content="Experience unparalleled luxury, breathtaking panoramic views, and exceptional service at the Highest View Hotel, the UK's premier destination for discerning travelers.">
+    <meta name="keywords" content="Luxury hotel UK, Best view hotel UK, UK scenic hotel, Highest View Hotel, 5-star hotel UK, UK holiday booking">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              'brand-green': '#013220',
+              'brand-brass': '#c5a47e',
+              'brand-brass-dark': '#a18057',
+              'brand-cream': '#fdfbf7',
+              'brand-greige': '#f5f3f0',
+              'brand-text': '#2c2a29',
+            },
+            fontFamily: {
+              'serif': ['Georgia', 'Times New Roman', 'serif'],
+              'sans': ['Inter', 'ui-sans-serif', 'system-ui', 'sans-serif'],
+            },
+            transitionProperty: {
+              'height': 'height',
+              'spacing': 'margin, padding',
+            }
+          }
+        }
+      }
+    </script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+    <style>
+      body {
+        font-family: 'Inter', sans-serif;
+      }
+      h1, h2, h3, h4, .font-serif {
+        font-family: 'Playfair Display', serif;
+      }
+      .fade-in {
+        animation: fadeIn 1s ease-in-out;
+      }
+      @keyframes fadeIn {
+        from { opacity: 0; transform: translateY(20px); }
+        to { opacity: 1; transform: translateY(0); }
+      }
+    </style>
+
+    <!-- Hotel Schema for SEO -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Hotel",
+      "name": "Highest View Hotel",
+      "description": "Experience unparalleled luxury, breathtaking panoramic views, and exceptional service at the Highest View Hotel, the UK's premier destination for discerning travelers.",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Main Road",
+        "addressLocality": "Bowling, Glasgow",
+        "postalCode": "G60 5AF",
+        "addressCountry": "UK"
+      },
+      "telephone": "+447934198548",
+      "email": "reservations@highestviewhotel.co.uk",
+      "url": "https://www.highestviewhotel.co.uk",
+      "image": "https://storage.googleapis.com/fpl-assets/HighestViewHotel.png",
+      "priceRange": "£££",
+      "starRating": {
+        "@type": "Rating",
+        "ratingValue": "5"
+      },
+      "checkinTime": "15:00",
+      "checkoutTime": "12:00",
+      "amenityFeature": [
+        { "@type": "LocationFeatureSpecification", "name": "Free WiFi" },
+        { "@type": "LocationFeatureSpecification", "name": "Restaurant & Bar" },
+        { "@type": "LocationFeatureSpecification", "name": "Spa & Wellness Center" },
+        { "@type": "LocationFeatureSpecification", "name": "Conference Rooms" },
+        { "@type": "LocationFeatureSpecification", "name": "Free Parking" }
+      ]
+    }
+    </script>
+<script type="importmap">
+{
+  "imports": {
+    "react": "https://esm.sh/react@^19.2.3",
+    "react-dom/": "https://esm.sh/react-dom@^19.2.3/",
+    "react/": "https://esm.sh/react@^19.2.3/"
+  }
+}
+</script>
+</head>
+<body class="text-brand-text">
+    <div id="root"></div>
+</body>
+</html>
